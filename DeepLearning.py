@@ -2,7 +2,7 @@ import numpy as np
 from Functions import Data
 
 class DeepLearning:
-    def __init__(self,Inputs:list,Number_Outputs:int , Target:list = None, Directory:str = "/Users/nathanyockey/Desktop/Financial Engineering/Data/Stocks/StockLearning.json"):
+    def __init__(self,Inputs:list,Number_Outputs:int , Target:list = None, Directory:str = "Default_Directory"):
         self.Inputs = Inputs
         self.Target = Target
         self.Ouputs = []
